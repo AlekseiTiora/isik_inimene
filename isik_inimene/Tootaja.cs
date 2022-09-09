@@ -36,7 +36,7 @@ namespace isik_inimene
 
         public override void print_Info()
         {
-            Console.WriteLine($"Tootaja: \n---------\nNimi: {nimi} \nVanus: {arvutaVanus()} \nSugu: {Sugu} \nAsutus: {asutus} \nAmet: {amet} \nPalk: {randomSalary()} euro \nPreemia: {Premium()} euro", Console.ForegroundColor = ConsoleColor.White);
+            Console.WriteLine($"Tootaja: \n \n Nimi: {nimi} Vanus: {arvutaVanus()} \nSugu: {Sugu} \nAsutus: {asutus} \nAmet: {amet} \nPalk: {randomSalary()} euro \nPreemia: {Premium()} euro", Console.ForegroundColor = ConsoleColor.White);
             Console.WriteLine($"Tulumaks: {Tulumaks()} euro");
         }
 
@@ -70,7 +70,5 @@ namespace isik_inimene
             }
             return 0;
         }
-        public void muudaAasta(int uusAasta) { synniAasta = uusAasta; }
-        public void muudaSugu(sugu uusSugu) { Sugu = uusSugu; }
     }
 }

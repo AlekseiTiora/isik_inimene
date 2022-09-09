@@ -26,7 +26,7 @@ namespace isik_inimene
 
         public override void print_Info()
         {
-            Console.WriteLine($"\nÕpilane:\n-------------- \nNimi: {nimi} \nVanus: {arvutaVanus()} \nSugu: {Sugu}\nKooli nimi: {kooliNimi} \nKlass: {klass} \nSpetsialiseerumine: {specialization}");
+            Console.WriteLine($"\nÕpilane:\n  \nNimi: {nimi} Vanus: {arvutaVanus()} \nSugu: {Sugu}\nKooli nimi: {kooliNimi} \nKlass: {klass} \nSpetsialiseerumine: {specialization}");
         }
 
         public void muudaKooli(string newKooli)

@@ -46,7 +46,7 @@ namespace isik_inimene
 
         public override void print_Info()
         {
-            Console.WriteLine($"\nÕpilane:\n-------------- \nNimi: {nimi} \nVanus: {arvutaVanus()} \nSugu: {Sugu} \nOppeasutus: {oppeasutus} \nEriala: {eriala}\nKursus: {kursus}");
+            Console.WriteLine($"\nÕpilane:\n  \nNimi: {nimi} Vanus: {arvutaVanus()} \nSugu: {Sugu} \nOppeasutus: {oppeasutus} \nEriala: {eriala}\nKursus: {kursus}");
         }
     }
 }
