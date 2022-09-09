@@ -29,19 +29,16 @@ void muudaNimi()
         {
             tootaja1.muudaNimi(vahetusNimi);
             tootaja1.print_Info();
-
         }
         else if (kes == 2)
         {
             opilane1.muudaNimi(vahetusNimi);
             opilane1.print_Info();
-
         }
         else if (kes == 3)
         {
             kutseop1.muudaNimi(vahetusNimi);
             kutseop1.print_Info();
-
         }
     }
     else { Console.WriteLine("sa ei tahtnud nime muuta"); }
